@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400&display=swap');
+
+
+
+
+body {
+  text-align: center;
+  /* background-color: rgba(155, 195, 47, 0.571); */
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://i.pinimg.com/originals/8c/25/42/8c254260be2a3d9f2278fe5873e06b76.png);
+ /* background-image: url(https://images.pexels.com/photos/4744787/pexels-photo-4744787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+  animation: ankit2 2s infinite;
+}
+/* @keyframes ankit2 {
+  from {
+    background-image: url(https://i.ytimg.com/vi/zDH3NEKXEkA/maxresdefault.jpg);
+  }
+
+  to {
+    background-image: url(https://i.pinimg.com/originals/8c/25/42/8c254260be2a3d9f2278fe5873e06b76.png);
+  }
+} */
+
+
+::selection{
+  color: black;
+  background-color: aqua;
+}
+h1 {
+  color: rgb(172, 9, 88);
+  font-size: 40px;
+  background-color: rgb(230, 228, 178);
+  animation: AnkitAnimation 2s cubic-bezier(0, 0.99, 1, 1.38) 3s infinite;
+  animation-direction: normal;
+}
+
+
+@keyframes AnkitAnimation {
+  from {
+    background-color: rgb(47, 238, 255);
+    color: red;
+  }
+
+  to {
+    background-color: rgb(218, 222, 149);
+    transform: scale(1.1);
+    color: darkblue;
+  }
+}
+
+img {
+  width: 50px;
+  padding: 10px;
+  margin-top: 0px;
+
+
+}
+
+/* @media only screen and(max-width: 600px) and(orientation: portrait){
+  .abc{
+    position: fixed;
+    left: 0px;
+  }
+  } */
+
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  @media only screen and (max-width: 676px){
+    #countdown-seconds{
+      position: sticky;
+      display: flex;
+      flex-shrink: 2;
+      right: 0%;
+      bottom: 0%;
+    }
+  }
+  
+  div h1 {
+    margin-top: 0px;
+    display: inline-flex;
+  }
+  
+  
+  table {
+    margin: auto;
+}
+
+th {
+  color: black;
+}
+
+
+input {
+  font-size: 15px;
+  padding: 5px;
+  border: 5px;
+}
+
+button {
+  min-width: 120px;
+  margin: 30px 10px;
+  padding: 10px;
+  border: 3px solid black;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+button:hover {
+  background: lightgreen;
+  color: black;
+  box-shadow: 4px 5px;
+  transform: scale(1.2);
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  
+  
+}
+
+.time {
+  background-color: rgb(240, 248, 255);
+  color: blue;
+  font-size: 100px;
+  width: 150px;
+  margin: 0px 10px;
+  border: 2px solid black;
+}
+
+.time:hover {
+  background-color: lightblue;
+  box-shadow: 5px 5px;
+  color: black;
+  
+}
+
+.ab {
+  border: 2px solid black;
+}
